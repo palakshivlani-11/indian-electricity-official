@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Indian Electricity Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+<div>
+	<img  id="logo"src="logo.png" alt="logo image">
+    
+</div>
+<div class="menu-bar">
+	<ul>
+		<li class="active"><a href="#"><i class="fa fa-home"></i>HOME</a></li>
+		<li><a href="#"><i class="fa fa-user"></i>ABOUT US</a>
+           <div class="submenu1">
+           <ul>
+           	<li><a href="responsibility.html">RESPONSIBILITIES</a></li>
+           	<li><a href="structure of ministry.html">STRUCTURE OF MINISTRY</a></li>
+           </ul>
+           </div>
+		</li>
+		<li><a href="#"><i class="fa fa-phone"></i>CONTACT US</a>
+          <div class="submenu1">
+           <ul>
+           	<li><a href="office of minister.html">OFFICE OF MINISTER OF STATE</a></li>
+           	<li><a href="head of division desk section.html">HEAD OF DIVISION DESK SECTION</a></li>
+           </ul>
+           </div>
+
+
+		</li>
+		<li><a href="#"><i class="fa fa-clone"></i>INFORMATION</a></li>
+	</ul>
+</div>
+<div id="rect">
+	<div class="g">Generation<span id="t">transmission</span> <span id="d">Distribution</span> <span id="r">Rural Electrification</span> <span id="e">Energy Efficiency</span><span id="a">Research and Training</span><span id="u">UDAY</span><div>
+		
+</div>
+<div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="ujala.jpg" />  
+             
+        </div>  
+        <div class="showSlide fade">  
+            <img src="uday.jpg"/>  
+            
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="saubha.jpg"/>  
+           
+        </div>  
+        <div class="showSlide fade">  
+            <img src="payment.jpg"/>  
+            
+        </div>  
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a>  
+    </div>  
+<div id="rect2">
+	<img src="namo.png">
+	<div id="div"><h1>About ministry of power</h1>
+	<p id="p">The Ministry of Power started functioning independently with effect from 2nd july,1992.<br>Earlier it was known as ministry of Energy<br>sources.Electricity is a concurrent subject<br>at Entry 38 in List III of the seventh schedule <br>of the Constitution of India.The Ministry of <br>Power is primarily responsible for the <br>development of electrical energy in the <br>country.</p>
+
+	<div id="form" target="blank" method="post">
+		<p id="login">REGISTER</p>
+		<fieldset>
+			<legend>Personal information</legend>
+		<p id="user"><input type="text" name="fname" placeholder="username"></p>
+		<p id="pass"><input type="password" name="fname" placeholder="password"></p>
+        </fieldset>
+        <button id="button" onclick="alert('information submitted')">Submit</button>
+
+
+		
+	</div>
+	<div id="one">
+		<div id="two"> <p class="Notices">Current Notices</p></div>
+		<div id="three">
+			<p id="photo">PHOTO GALLERY</p>
+		</div> 
+		<div id="four">
+	    <p>MAR<br><span id="span5"> 05</span> <span id="link1"><a href="director.pdf">Appointment to the post of Director(Technical), Punatsangchhu</a></span></p>
+		<p id="mar3">MAR<br> 03 <span id="link2"><a href="chairman.pdf">Appointment to the post of Chairman, Damodar Valley Corporation on deputation basis  </a></span></p>
+		<p id="mar2">MAR<br> 28 <span id="link3"><a href="link.pdf">Essential Operation of Power Generation Utilites and permission for material movement needed by them during lockdown due to COVID-19</a></span></p>
+		<p id="feb5">FEB<br> 05<span id="link4"><a href="procurement.pdf">Public Procurement to provide for purchase preference in respect of Power Distribution Sector</a></span></p>
+		<p id="jan27">JAN <br> 27<span id="link5"><a href="appointment.pdf">Operation and Maintainance of inter state Transmission Network on basis for providing uninterrupted during nation-wide lockdown</a></span></p>
+		</div>
+		<div id="five">
+			<ol id="list">
+				<li><a href="pay your bill.html">Pay Your Bills</a></li>
+				<li><a href="history.html">Consumption History</a></li>
+				
+			</ol>
+		</div>
+	</div>
+	<div id="quick"><p id="heading">QUICK LINKS</p></div>
+	<div id="high">
+		<p id="state">HIGH ELECTRICITY CONSUMPTION STATES</p>
+	</div>
+	<div id="name">
+		<ol id="list1">
+			<li>Gujarat</li>
+			<li>Maharashtra</li>
+			<li>Tamil Nadu</li>
+			<li>Andhra Pradesh</li>
+		</ol>
+	</div>
+	<marquee id="marquee" direction="right">
+		<img class="mar" src="marque1.jpg">
+		<img  class="mar"src="marque2.jpg">
+		<img class="mar"src="marque3.png">
+		<img class="mar" src="marque4.jpg">
+		<img class="mar"src="marque5.png">
+		<img class="mar"src="marque6.png">
+		<img class="mar"src="marque 7.png">
+		<img class="mar"src="marque 8.png">
+	</marquee>
+
+
+
+
+<script type="text/javascript">  
+        var slide_index = 1;  
+        displaySlides(slide_index);  
+        function nextSlide(n) {  
+            displaySlides(slide_index += n);  
+        }  
+        function currentSlide(n) {  
+            displaySlides(slide_index = n);  
+        }  
+        function displaySlides(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide");  
+            if (n > slides.length) { slide_index = 1 }  
+            if (n < 1) { slide_index = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index - 1].style.display = "block";  
+        }  
+</script>   
+
+
+
+<img src="foot.jpg" id="foot">
+
+
+
+</body>
+</html>
